@@ -1,8 +1,8 @@
 /Logs
 /obj
-Library
-Temp
-Assets/PolygonApocalypse
-Materials
-Models
-Prefubs
+/Library
+/Temp
+/Assets/PolygonApocalypse
+/Assets/Materials
+/Assets/Models
+/Assets/Prefubs
