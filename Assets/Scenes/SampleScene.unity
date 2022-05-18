@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -175,6 +175,21 @@ MonoBehaviour:
   _forceMode: 2
   _speedRotation: 3
   _animator: {fileID: 1718119876221611397}
+  Dead:
+    m_PersistentCalls:
+      m_Calls: []
+  Run:
+    m_PersistentCalls:
+      m_Calls: []
+  HitDamage:
+    m_PersistentCalls:
+      m_Calls: []
+  SimpleAttack:
+    m_PersistentCalls:
+      m_Calls: []
+  PowerAttack:
+    m_PersistentCalls:
+      m_Calls: []
   Target: {fileID: 2121579241}
 --- !u!54 &450505600
 Rigidbody:
@@ -250,6 +265,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e228208493360634398d3e6b4ae0d622, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bodyDamageMultiplier: 1
 --- !u!1 &610631545
 GameObject:
   m_ObjectHideFlags: 0
@@ -5272,6 +5288,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d1f7d9ff6e2483f40b5cf62e302f945c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _headDamageMultiplier: 3
 --- !u!1 &1717760713881380128
 GameObject:
   m_ObjectHideFlags: 0

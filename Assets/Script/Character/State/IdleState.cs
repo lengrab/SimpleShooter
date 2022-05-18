@@ -12,7 +12,7 @@ public class IdleState: IState
 
     public void SetNewState()
     {
-        _character.SetNewState(new IdleState(_character));
+        //TODO _character.SetNewState(new IdleState(_character));
     }
 
     public void UpdateState()

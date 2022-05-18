@@ -7,6 +7,6 @@ public interface ICharacter
     public void Rotate(float angle);
     public void SimpleAttack();
     public void PowerAttack();
-    public void TakeHit(int damage);
+    public void TakeDamage(int damage);
     public void Dead();
 }
